@@ -1,14 +1,22 @@
-# 基础配置
-title: 我的博客
-subtitle: ''
-description: ''
-keywords: ''
-author: YourName
+# 网站
+title: 你的博客标题
+subtitle: 你的博客副标题
+description: 你的博客描述
+author: Noahliu
 language: zh-CN
 timezone: Asia/Shanghai
-theme: fluid  # 指定主题
 
-# 输出目录（必须与 Netlify 的发布目录一致）
-public_dir: public
+# URL
+url: https://你的域名（后续 Netlify 会分配）
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 
-# 其他保持默认
+# 主题
+theme: fluid
+
+# 部署
+deploy:
+  type: git
+  repo: https://github.com/你的用户名/my-hexo-blog.git
+  branch: main
