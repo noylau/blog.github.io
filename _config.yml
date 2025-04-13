@@ -7,7 +7,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://你的域名（后续 Netlify 会分配）
+url: https://noahblog.netlify.app
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -18,5 +18,5 @@ theme: fluid
 # 部署
 deploy:
   type: git
-  repo: https://github.com/你的用户名/my-hexo-blog.git
+  repo: https://github.com/noylau/my-hexo-blog.git
   branch: main
