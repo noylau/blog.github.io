@@ -1,0 +1,14 @@
+# 基础配置
+title: 我的博客
+subtitle: ''
+description: ''
+keywords: ''
+author: YourName
+language: zh-CN
+timezone: Asia/Shanghai
+theme: fluid  # 指定主题
+
+# 输出目录（必须与 Netlify 的发布目录一致）
+public_dir: public
+
+# 其他保持默认
